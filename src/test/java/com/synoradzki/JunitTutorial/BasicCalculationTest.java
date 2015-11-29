@@ -17,6 +17,7 @@ public class BasicCalculationTest {
 		System.out.println("Wywo³ana raz, przed wszystkimi testami");
 	}
 	
+	
 	/**
 	 * Metoda publiczna statyczna wykonywana tylko jeden raz dla klasy testowej;
 	 */

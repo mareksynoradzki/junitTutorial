@@ -1,4 +1,4 @@
-package com.synoradzki.JunitTutorial;
+package com.synoradzki.JunitTutorial.simpleTest;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package com.synoradzki.JunitTutorial;
+package com.synoradzki.JunitTutorial.simpleTest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite.SuiteClasses;

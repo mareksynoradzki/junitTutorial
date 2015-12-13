@@ -1,6 +1,6 @@
 package com.synoradzki.JunitTutorial.mockito;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -18,6 +18,7 @@ public class StockBrokerTest {
 
 	@Before
 	public void setUp() {
+		//zamiast annotacji @RunWith(MockitoJUnitRunner.class)
 		MockitoAnnotations.initMocks(this);
 	}
 

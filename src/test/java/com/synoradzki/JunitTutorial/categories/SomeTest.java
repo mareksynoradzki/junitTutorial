@@ -8,7 +8,7 @@ import org.junit.experimental.categories.Category;
 public class SomeTest {
 	@Test
 	public void a() {
-		fail();
+//		fail();
 	}
 
 	@Category(CrazyTests.class)

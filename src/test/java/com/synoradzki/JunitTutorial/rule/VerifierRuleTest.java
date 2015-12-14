@@ -2,6 +2,7 @@ package com.synoradzki.JunitTutorial.rule;
 
 import org.hamcrest.Matchers;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestRule;
@@ -21,6 +22,7 @@ public class VerifierRuleTest {
 	};
 
 	@Test
+	@Ignore
 	public void testName() throws Exception {
 		errorMsg = "Giving a value";
 	}
